@@ -7,6 +7,28 @@
   pointer-events: none;
 }
 
+.vertical{
+
+width:400px;
+}
+
+.vertical label {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.active {
+
+  background-color: #0d7dcd;
+  color: white;
+  height: 40px;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
